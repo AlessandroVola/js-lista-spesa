@@ -8,9 +8,12 @@
 
 body {
     font-family: sans-serif;
-    background-color: black;
 }
 
 /* utilities */
+h1 {
+    text-align: center;
+    padding-top: 50px;
+}
 
 /* content */
