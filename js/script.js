@@ -10,6 +10,8 @@ htmlContainer.innerHTML = ``
 // ciclo while
 while (i < groceryList.length) {
     console.log(groceryList[i]);
-    htmlContainer.innerHTML(groceryList[i]);
+    htmlContainer.innerHTML += `<div> 
+                                    ${groceryList[i]}
+                                </div>`
     i++; //per incrementare contatore i
 }
